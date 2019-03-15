@@ -6,13 +6,120 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <SeekBar
+        android:id="@+id/seekBar3"
+        android:layout_width="100dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="332dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar4"
+        android:layout_width="100dp"
+        android:layout_height="26dp"
+        tools:layout_editor_absoluteX="238dp"
+        tools:layout_editor_absoluteY="332dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar5"
+        android:layout_width="100dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="468dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar6"
+        android:layout_width="100dp"
+        android:layout_height="26dp"
+        tools:layout_editor_absoluteX="238dp"
+        tools:layout_editor_absoluteY="468dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar2"
+        android:layout_width="100dp"
+        android:layout_height="26dp"
+        tools:layout_editor_absoluteX="238dp"
+        tools:layout_editor_absoluteY="208dp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="100dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:text="Node1"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerLogo" />
+
+    <ImageView
+        android:id="@+id/headerLogo"
+        android:layout_width="354dp"
+        android:layout_height="106dp"
+        android:src="@mipmap/imagelogo"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="100dp"
+        android:layout_height="58dp"
+        android:text="Node2"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="238dp"
+        tools:layout_editor_absoluteY="146dp" />
+
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="100dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:text="Node3"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar" />
+
+    <Switch
+        android:id="@+id/switch4"
+        android:layout_width="100dp"
+        android:layout_height="58dp"
+        android:text="Node4"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="238dp"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <Switch
+        android:id="@+id/switch5"
+        android:layout_width="100dp"
+        android:layout_height="58dp"
+        android:text="Node5"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="410dp" />
+
+    <Switch
+        android:id="@+id/switch6"
+        android:layout_width="100dp"
+        android:layout_height="58dp"
+        android:text="Node6"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="238dp"
+        tools:layout_editor_absoluteY="410dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="100dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switch1" />
 
 </android.support.constraint.ConstraintLayout>
